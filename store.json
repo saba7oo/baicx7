@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "name": "YouTube (ReVanced)",
+      "name": "YouTube Music (ReVanced)",
       "pkg": "app.rvx.android.youtube",
       "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/YouTube_ReVanced_Advanced_v19.11.38.apk",
       "versionCode": 1545074112,
