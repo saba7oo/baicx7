@@ -1,35 +1,51 @@
 {
   "apps": [
     {
-      "name": "Waze",
-      "pkg": "com.waze",
-      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/waze.apk",
-      "versionCode": 1,
-      "desc": "Navigation",
-      "category": "Navigation"
-    },
-    {
-      "name": "YT Music (ReVanced)",
-      "pkg": "app.revanced.android.apps.youtube.music",
-      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/revanced-music.apk",
-      "versionCode": 84054240,
-      "desc": "Music player",
+      "name": "YouTube (ReVanced)",
+      "pkg": "app.rvx.android.youtube",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/YouTube_ReVanced_Advanced_v19.11.38.apk",
+      "versionCode": 1545074112,
+      "desc": "Ad-free YouTube",
       "category": "Media"
     },
     {
-      "name": "GSpace",
-      "pkg": "com.gspace.android",
-      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/gspace.apk",
-      "versionCode": 1,
-      "desc": "Runs Google apps in a container",
+      "name": "Equalizer",
+      "pkg": "com.jazibkhan.equalizer",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/han.equalizer-4.3.7.apk",
+      "versionCode": 94,
+      "desc": "Audio equalizer",
+      "category": "Media"
+    },
+    {
+      "name": "SwiftKey Keyboard",
+      "pkg": "com.touchtype.swiftkey",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/swiftkey-keyboard-9-13-12-4.apk",
+      "versionCode": 1236009024,
+      "desc": "On-screen keyboard",
       "category": "Tools"
     },
     {
-      "name": "Keyboard (Gboard)",
-      "pkg": "com.google.android.inputmethod.latin",
-      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/keyboard.apk",
-      "versionCode": 175871750,
-      "desc": "On-screen keyboard",
+      "name": "microG Services",
+      "pkg": "app.revanced.android.gms",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/microG_Services_v0.3.1.4.240913-hw_.apk",
+      "versionCode": 240913008,
+      "desc": "Google services for ReVanced apps",
+      "category": "Tools"
+    },
+    {
+      "name": "Aurora Store",
+      "pkg": "com.aurora.store",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/AuroraStore-hw-4.8.3.apk",
+      "versionCode": 75,
+      "desc": "Install Play Store apps",
+      "category": "Tools"
+    },
+    {
+      "name": "ReVanced Manager",
+      "pkg": "com.revanced.net.revancedmanager",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/vanced.to_revanced_manager_plus_v3.5.1.apk",
+      "versionCode": 351,
+      "desc": "Patch apps yourself",
       "category": "Tools"
     }
   ]
