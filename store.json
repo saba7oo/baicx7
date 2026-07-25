@@ -1,0 +1,36 @@
+{
+  "apps": [
+    {
+      "name": "YT Music (ReVanced)",
+      "pkg": "app.revanced.android.apps.youtube.music",
+      "apkUrl": "https://github.com/OWNER/REPO/releases/download/apps/revanced-music.apk",
+      "versionCode": 1,
+      "desc": "Music player",
+      "category": "Media"
+    },
+    {
+      "name": "Waze",
+      "pkg": "com.waze",
+      "apkUrl": "https://github.com/OWNER/REPO/releases/download/apps/waze.apk",
+      "versionCode": 1,
+      "desc": "Navigation",
+      "category": "Navigation"
+    },
+    {
+      "name": "GSpace",
+      "pkg": "com.gspace.android",
+      "apkUrl": "https://github.com/OWNER/REPO/releases/download/apps/gspace.apk",
+      "versionCode": 1,
+      "desc": "Runs Google apps in a container",
+      "category": "Tools"
+    },
+    {
+      "name": "Keyboard",
+      "pkg": "REPLACE.with.keyboard.package",
+      "apkUrl": "https://github.com/OWNER/REPO/releases/download/apps/keyboard.apk",
+      "versionCode": 1,
+      "desc": "On-screen keyboard",
+      "category": "Tools"
+    }
+  ]
+}
