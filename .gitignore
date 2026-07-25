@@ -1,3 +1,4 @@
 # APKs go to GitHub *Releases* (assets), never committed here (keeps the repo small)
 releases/
 *.apk
+upload/

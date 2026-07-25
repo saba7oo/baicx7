@@ -1,20 +1,20 @@
 {
   "apps": [
     {
-      "name": "YT Music (ReVanced)",
-      "pkg": "app.revanced.android.apps.youtube.music",
-      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/revanced-music.apk",
-      "versionCode": 1,
-      "desc": "Music player",
-      "category": "Media"
-    },
-    {
       "name": "Waze",
       "pkg": "com.waze",
       "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/waze.apk",
       "versionCode": 1,
       "desc": "Navigation",
       "category": "Navigation"
+    },
+    {
+      "name": "YT Music (ReVanced)",
+      "pkg": "app.revanced.android.apps.youtube.music",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/revanced-music.apk",
+      "versionCode": 84054240,
+      "desc": "Music player",
+      "category": "Media"
     },
     {
       "name": "GSpace",
@@ -25,10 +25,10 @@
       "category": "Tools"
     },
     {
-      "name": "Keyboard",
-      "pkg": "REPLACE.with.keyboard.package",
+      "name": "Keyboard (Gboard)",
+      "pkg": "com.google.android.inputmethod.latin",
       "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/keyboard.apk",
-      "versionCode": 1,
+      "versionCode": 175871750,
       "desc": "On-screen keyboard",
       "category": "Tools"
     }
