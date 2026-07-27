@@ -48,21 +48,21 @@
       "desc": "Patch apps yourself",
       "category": "Tools"
     },
-     {
+    {
       "name": "Maps",
-      "pkg": "com.google.android.apps.maps",
+      "pkg": "com.gbox.com.google.android.apps.maps",
       "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/Maps-1540-150406-AG-64-20250228-64.apk",
-      "versionCode": 15,
-      "desc": "Install Maps",
+      "versionCode": 2100150406,
+      "desc": "Maps (GBox build)",
       "category": "Navigation"
-    }
-  ],
-  {
+    },
+    {
       "name": "GBox",
       "pkg": "com.gbox.android",
       "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/GBox-1.8.3.32-1080332-7848795-website.apk",
       "versionCode": 1080332,
-      "desc": "Install GBpx",
+      "desc": "Google services sandbox",
       "category": "Tools"
     }
+  ]
 }
