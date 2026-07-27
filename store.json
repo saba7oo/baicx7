@@ -56,5 +56,13 @@
       "desc": "Install Maps",
       "category": "Navigation"
     }
-  ]
+  ],
+  {
+      "name": "GBox",
+      "pkg": "com.gbox.android",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/GBox-1.8.3.32-1080332-7848795-website.apk",
+      "versionCode": 1080332,
+      "desc": "Install GBpx",
+      "category": "Tools"
+    }
 }
