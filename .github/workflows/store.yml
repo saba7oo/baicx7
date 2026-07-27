@@ -1,0 +1,46 @@
+name: Build store.json
+
+# Publishing an app is "upload the APK to the apps release" — this rebuilds the manifest from the
+# APKs themselves so package names and versionCodes can never be typed wrong (they used to be, and
+# a bad manifest means the in-app store shows nothing at all on the car).
+on:
+  release:
+    types: [published, edited, deleted]
+  push:
+    branches: [main]
+    paths:
+      - apps-meta.json
+      - tools/build_store.py
+      - .github/workflows/store.yml
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install aapt
+        run: sudo apt-get update && sudo apt-get install -y aapt
+
+      - name: Regenerate store.json from the apps release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/build_store.py --repo "${{ github.repository }}" --tag apps
+
+      - name: Fail if the result is not valid JSON
+        run: python3 -c "import json;d=json.load(open('store.json'));print('ok:',len(d['apps']),'apps')"
+
+      - name: Commit if it changed
+        run: |
+          if git diff --quiet -- store.json; then
+            echo "store.json already up to date"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add store.json
+          git commit -m "store.json: rebuilt from the apps release [skip ci]"
+          git push

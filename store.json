@@ -1,12 +1,12 @@
 {
   "apps": [
     {
-      "name": "YouTube Music (ReVanced)",
-      "pkg": "app.rvx.android.youtube",
-      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/YouTube_ReVanced_Advanced_v19.11.38.apk",
-      "versionCode": 1545074112,
-      "desc": "Ad-free YouTube",
-      "category": "Media"
+      "name": "Maps",
+      "pkg": "com.gbox.com.google.android.apps.maps",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/Maps-1540-150406-AG-64-20250228-64.apk",
+      "versionCode": 2100150406,
+      "desc": "Maps (GBox build)",
+      "category": "Navigation"
     },
     {
       "name": "Equalizer",
@@ -17,11 +17,27 @@
       "category": "Media"
     },
     {
-      "name": "SwiftKey Keyboard",
-      "pkg": "com.touchtype.swiftkey",
-      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/swiftkey-keyboard-9-13-12-4.apk",
-      "versionCode": 1236009024,
-      "desc": "On-screen keyboard",
+      "name": "YouTube Music (ReVanced)",
+      "pkg": "app.rvx.android.youtube",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/YouTube_ReVanced_Advanced_v19.11.38.apk",
+      "versionCode": 1545074112,
+      "desc": "Ad-free YouTube",
+      "category": "Media"
+    },
+    {
+      "name": "Aurora Store",
+      "pkg": "com.aurora.store",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/AuroraStore-hw-4.8.3.apk",
+      "versionCode": 75,
+      "desc": "Install Play Store apps",
+      "category": "Tools"
+    },
+    {
+      "name": "GBox",
+      "pkg": "com.gbox.android",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/GBox-1.8.3.32-1080332-7848795-website.apk",
+      "versionCode": 1080332,
+      "desc": "Google services sandbox",
       "category": "Tools"
     },
     {
@@ -33,14 +49,6 @@
       "category": "Tools"
     },
     {
-      "name": "Aurora Store",
-      "pkg": "com.aurora.store",
-      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/AuroraStore-hw-4.8.3.apk",
-      "versionCode": 75,
-      "desc": "Install Play Store apps",
-      "category": "Tools"
-    },
-    {
       "name": "ReVanced Manager",
       "pkg": "com.revanced.net.revancedmanager",
       "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/vanced.to_revanced_manager_plus_v3.5.1.apk",
@@ -49,19 +57,11 @@
       "category": "Tools"
     },
     {
-      "name": "Maps",
-      "pkg": "com.gbox.com.google.android.apps.maps",
-      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/Maps-1540-150406-AG-64-20250228-64.apk",
-      "versionCode": 2100150406,
-      "desc": "Maps (GBox build)",
-      "category": "Navigation"
-    },
-    {
-      "name": "GBox",
-      "pkg": "com.gbox.android",
-      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/GBox-1.8.3.32-1080332-7848795-website.apk",
-      "versionCode": 1080332,
-      "desc": "Google services sandbox",
+      "name": "SwiftKey Keyboard",
+      "pkg": "com.touchtype.swiftkey",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/swiftkey-keyboard-9-13-12-4.apk",
+      "versionCode": 1236009024,
+      "desc": "On-screen keyboard",
       "category": "Tools"
     }
   ]

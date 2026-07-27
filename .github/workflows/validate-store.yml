@@ -1,0 +1,41 @@
+name: Validate store.json
+
+# The car reads this file directly. If it does not parse, the in-app store shows nothing — so a
+# broken manifest must never survive a push. Runs on every change to the manifest or its inputs.
+on:
+  push:
+    paths:
+      - store.json
+      - apps-meta.json
+      - tools/build_store.py
+  pull_request:
+    paths:
+      - store.json
+      - apps-meta.json
+      - tools/build_store.py
+  workflow_dispatch:
+
+jobs:
+  parse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: store.json parses and has the fields the app reads
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          d = json.load(open('store.json'))
+          apps = d['apps']
+          assert isinstance(apps, list) and apps, "apps must be a non-empty array"
+          seen = set()
+          for a in apps:
+              for k in ('name', 'pkg', 'apkUrl', 'versionCode'):
+                  assert k in a, "%s missing %r" % (a.get('name', '?'), k)
+              assert isinstance(a['versionCode'], int), "%s versionCode must be a number" % a['name']
+              assert not a['pkg'].endswith('.apk'), "%s: pkg is a package name, not a filename" % a['name']
+              assert a['pkg'] not in seen, "duplicate pkg %s" % a['pkg']
+              seen.add(a['pkg'])
+          print("ok:", len(apps), "apps")
+          PY
+      - name: apps-meta.json parses
+        run: python3 -c "import json;json.load(open('apps-meta.json'));print('ok')"

@@ -1,0 +1,60 @@
+{
+  "_comment": [
+    "The ONLY hand-written part of the app store. Everything an APK already knows -- package name,",
+    "versionCode, default display name -- is read from the APK itself by tools/build_store.py, so it",
+    "cannot be typed wrong here. To publish an app: upload its APK to the 'apps' release. That is all.",
+    "Add an entry below only to give it a description/category (or to override the name, or hide it).",
+    "Unknown packages default to category 'Tools' with no description. A typo in this file cannot",
+    "break the store: the generator rewrites store.json, and CI rejects a manifest that does not parse."
+  ],
+  "apps": [
+    {
+      "pkg": "app.rvx.android.youtube",
+      "name": "YouTube Music (ReVanced)",
+      "desc": "Ad-free YouTube",
+      "category": "Media"
+    },
+    {
+      "pkg": "com.jazibkhan.equalizer",
+      "name": "Equalizer",
+      "desc": "Audio equalizer",
+      "category": "Media"
+    },
+    {
+      "pkg": "com.touchtype.swiftkey",
+      "name": "SwiftKey Keyboard",
+      "desc": "On-screen keyboard",
+      "category": "Tools"
+    },
+    {
+      "pkg": "app.revanced.android.gms",
+      "name": "microG Services",
+      "desc": "Google services for ReVanced apps",
+      "category": "Tools"
+    },
+    {
+      "pkg": "com.aurora.store",
+      "name": "Aurora Store",
+      "desc": "Install Play Store apps",
+      "category": "Tools"
+    },
+    {
+      "pkg": "com.revanced.net.revancedmanager",
+      "name": "ReVanced Manager",
+      "desc": "Patch apps yourself",
+      "category": "Tools"
+    },
+    {
+      "pkg": "com.gbox.com.google.android.apps.maps",
+      "name": "Maps",
+      "desc": "Maps (GBox build)",
+      "category": "Navigation"
+    },
+    {
+      "pkg": "com.gbox.android",
+      "name": "GBox",
+      "desc": "Google services sandbox",
+      "category": "Tools"
+    }
+  ]
+}
