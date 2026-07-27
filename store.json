@@ -47,6 +47,14 @@
       "versionCode": 351,
       "desc": "Patch apps yourself",
       "category": "Tools"
+    }, Maps-1540-150406-AG-64-20250228-64.apk
+     {
+      "name": "Maps",
+      "pkg": "com.google.android.apps.maps.apk",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/Maps-1540-150406-AG-64-20250228-64.apk",
+      "versionCode": 15,
+      "desc": "Install Maps",
+      "category": "Navigation"
     }
   ]
 }
