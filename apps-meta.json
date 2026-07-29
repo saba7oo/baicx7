@@ -55,6 +55,30 @@
       "name": "GBox",
       "desc": "Google services sandbox",
       "category": "Tools"
+    },
+    {
+      "pkg": "com.google.android.gms",
+      "name": "microG (native Maps 1/4)",
+      "desc": "Native Google services. Needs the system signature patch to work - install all 4 microG apps, see notes.",
+      "category": "Tools"
+    },
+    {
+      "pkg": "com.google.android.gsf",
+      "name": "microG GsfProxy (native Maps 2/4)",
+      "desc": "Services-framework link for microG.",
+      "category": "Tools"
+    },
+    {
+      "pkg": "org.microg.nlp.backend.ichnaea",
+      "name": "microG Location (native Maps 3/4)",
+      "desc": "Network location backend for microG.",
+      "category": "Tools"
+    },
+    {
+      "pkg": "com.android.vending",
+      "name": "microG Companion (native Maps 4/4)",
+      "desc": "Play Store companion for microG (account sign-in / app updates).",
+      "category": "Tools"
     }
   ]
 }

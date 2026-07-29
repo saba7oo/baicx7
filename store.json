@@ -41,6 +41,38 @@
       "category": "Tools"
     },
     {
+      "name": "microG (native Maps 1/4)",
+      "pkg": "com.google.android.gms",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/com.google.android.gms-0.3.15.apk",
+      "versionCode": 250932030,
+      "desc": "Native Google services. Needs the system signature patch to work - install all 4 microG apps, see notes.",
+      "category": "Tools"
+    },
+    {
+      "name": "microG Companion (native Maps 4/4)",
+      "pkg": "com.android.vending",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/com.android.vending-microg-0.3.15.apk",
+      "versionCode": 84022630,
+      "desc": "Play Store companion for microG (account sign-in / app updates).",
+      "category": "Tools"
+    },
+    {
+      "name": "microG GsfProxy (native Maps 2/4)",
+      "pkg": "com.google.android.gsf",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/com.google.android.gsf-0.1.0.apk",
+      "versionCode": 8,
+      "desc": "Services-framework link for microG.",
+      "category": "Tools"
+    },
+    {
+      "name": "microG Location (native Maps 3/4)",
+      "pkg": "org.microg.nlp.backend.ichnaea",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/IchnaeaNlpBackend-1.5.0.apk",
+      "versionCode": 20036,
+      "desc": "Network location backend for microG.",
+      "category": "Tools"
+    },
+    {
       "name": "microG Services",
       "pkg": "app.revanced.android.gms",
       "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/microG_Services_v0.3.1.4.240913-hw_.apk",
