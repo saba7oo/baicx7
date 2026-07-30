@@ -25,6 +25,14 @@
       "category": "Media"
     },
     {
+      "name": "F-Droid",
+      "pkg": "org.fdroid.fdroid",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/F-Droid-1.23.2.apk",
+      "versionCode": 1023052,
+      "desc": "Open-source app store - offline maps (OsmAnd, Organic Maps) and keyboards",
+      "category": "Tools"
+    },
+    {
       "name": "Aurora Store",
       "pkg": "com.aurora.store",
       "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/AuroraStore-hw-4.8.3.apk",
