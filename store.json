@@ -17,6 +17,14 @@
       "category": "Media"
     },
     {
+      "name": "Aptoide TV",
+      "pkg": "cm.aptoidetv.pt",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/AptoideTV-5.1.3.apk",
+      "versionCode": 542,
+      "desc": "App store built for big screens - large touch targets",
+      "category": "Tools"
+    },
+    {
       "name": "F-Droid",
       "pkg": "org.fdroid.fdroid",
       "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/F-Droid-1.23.2.apk",
