@@ -1,6 +1,6 @@
 {
-    "versionCode":  6,
-    "versionName":  "0.6",
-    "apkUrl":  "https://github.com/saba7oo/baicx7/releases/download/v0.6/cardashboard-car-release.apk",
-    "notes":  "Release 0.6"
+    "versionCode":  7,
+    "versionName":  "0.7",
+    "apkUrl":  "https://github.com/saba7oo/baicx7/releases/download/v0.7/cardashboard-car-release.apk",
+    "notes":  "Release 0.7 — cockpit stability: derived decor, reliable pane geometry, knob full-screen, HOME from full screen, music after radio, wheel track keys, clock format setting"
 }
