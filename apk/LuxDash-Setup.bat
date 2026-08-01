@@ -219,6 +219,7 @@ Def 'r.bootb'    'If the unit boots normally instead, use your unit''s own key c
 Def 'r.i8'       'Choose item 8'                       'اختر البند 8'
 Def 'r.i8b'      'Format the map partition. The unit reboots by itself afterwards.' 'تهيئة قسم الخرائط. سيعيد الجهاز تشغيل نفسه بعدها.'
 Def 'r.i11'      'Go back into recovery, choose item 11' 'ادخل قائمة الاسترداد مرة أخرى واختر البند 11'
+Def 'd.slot'     'Your 16 GB layout lives on this boot slot. If this slot ever fails to boot, the unit re-flashes it — the layout goes with it. Keep risky system changes off it.' 'تخطيط الـ16 غيغابايت مرتبط بهذه الشريحة. إذا فشل إقلاعها، يعيد الجهاز تثبيتها ويضيع التخطيط. تجنّب التعديلات النظامية الخطرة عليها.'
 Def 'r.i11b'     'Switch to the backup system. Confirm with 是 (yes), not 否 (no).' 'التبديل إلى النظام الاحتياطي. أكّد بـ 是 (نعم) وليس 否 (لا).'
 Def 'r.did'      'I have done both steps'              'أنجزت الخطوتين'
 
@@ -1171,6 +1172,14 @@ function Page_done() {
     for ($i = 0; $i -lt $rows.Count; $i++) {
         Row $c (16 + $i * 30) $rows[$i][0] "$($rows[$i][1])" "$($rows[$i][2])"
     }
+    if ($script:Plan -eq 'storage') {
+        $sl = New-Object Windows.Forms.Label
+        $sl.Location = (PT 16 236); $sl.Size = (SZ 636 22)
+        $sl.Font = (F 8)
+        $sl.ForeColor = $C_MUTE
+        $sl.Text = (L 'd.slot')
+        $c.Controls.Add($sl)
+    }
     $n = New-Object Windows.Forms.Label
     $n.Location = (PT 16 258); $n.Size = (SZ 636 24)
     $n.Font = (F 10 $true)
@@ -1481,13 +1490,18 @@ fi
     Sh 'pm disable-user --user 0 com.qinggan.systemui' | Out-Null
     MarkStep 2 'ok'
 
-    # 4 - boot voice, music toasts, extra launchers, radio
+    # 4 - boot voice, music toasts, extra launchers, and AutoKit's auto-start.
+    #     The FM radio is deliberately NOT disabled: disabling it hides it from every app picker,
+    #     so it cannot be bound to a dock slot or opened in a cockpit tile. The dashboard hands the
+    #     audio source over through the vendor API instead of killing the radio (0.7).
     MarkStep 3 'run'
     Sh 'pm disable-user --user 0 com.qinggan.now.ui'    | Out-Null
     Sh 'pm disable-user --user 0 com.qinggan.app.music' | Out-Null
-    Sh 'pm disable-user --user 0 com.qinggan.app.radio' | Out-Null
     Sh 'pm disable-user --user 0 com.android.launcher3' | Out-Null
     Sh 'pm disable com.qinggan.app.launcher/com.qinggan.app.launcher.activity.MainActivity' | Out-Null
+    # AutoKit (Carlinkit) starts itself over the dashboard at every boot. Disable only the
+    # auto-start receiver, so the app still opens normally when the driver taps it.
+    Sh 'pm disable cn.manstep.phonemirrorBox/cn.manstep.phonemirrorBox.AutoStartReceiver' | Out-Null
     MarkStep 3 'ok'
 
     # 5 - the build.prop gate that makes boot fast. It is also the safety
@@ -1538,9 +1552,9 @@ grep -c 'com.qinggan.user_started' /system/build.prop
     Sh 'pm disable-user --user 0 com.qinggan.systemui'   | Out-Null
     Sh 'pm disable-user --user 0 com.qinggan.now.ui'     | Out-Null
     Sh 'pm disable-user --user 0 com.qinggan.app.music'  | Out-Null
-    Sh 'pm disable-user --user 0 com.qinggan.app.radio'  | Out-Null
     Sh 'pm disable-user --user 0 com.android.launcher3'  | Out-Null
     Sh 'pm disable com.qinggan.app.launcher/com.qinggan.app.launcher.activity.MainActivity' | Out-Null
+    Sh 'pm disable cn.manstep.phonemirrorBox/cn.manstep.phonemirrorBox.AutoStartReceiver' | Out-Null
     Sh "cmd package set-home-activity $HOME_ACT"         | Out-Null
     Sh 'settings put global enable_freeform_support 1'   | Out-Null
     Sh 'settings put global force_resizable_activities 1'| Out-Null
@@ -1594,6 +1608,7 @@ function Run-Undo() {
         Sh "pm enable $p" | Out-Null
     }
     Sh 'pm enable com.qinggan.app.launcher/com.qinggan.app.launcher.activity.MainActivity' | Out-Null
+    Sh 'pm enable cn.manstep.phonemirrorBox/cn.manstep.phonemirrorBox.AutoStartReceiver' | Out-Null
     Sh 'pm enable com.qinggan.app.login/com.qinggan.app.login.RootActivity' | Out-Null
 }
 
