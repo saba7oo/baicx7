@@ -1,6 +1,6 @@
 {
-    "versionCode":  7,
-    "versionName":  "0.7",
-    "apkUrl":  "https://github.com/saba7oo/baicx7/releases/download/v0.7/cardashboard-car-release.apk",
-    "notes":  "Release 0.7 — cockpit stability: derived decor, reliable pane geometry, knob full-screen, HOME from full screen, music after radio, wheel track keys, clock format setting"
+    "versionCode": 8,
+    "versionName": "0.8",
+    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.8/cardashboard-car-release.apk",
+    "notes": "Release 0.8 \u2014 2-tile split framing (fixed); voice trainer localized (en/ar/ru) + per-window commands + Russian nav/media; voice latency ~15s\u2192~6-7s (dynamic whisper audio_ctx); camera language via CAN; removed To-screen button, tiny time, dock temps"
 }
