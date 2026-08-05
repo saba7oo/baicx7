@@ -63,6 +63,14 @@
       "versionCode": 1236009024,
       "desc": "On-screen keyboard",
       "category": "Tools"
+    },
+    {
+      "name": "AutoKit (phone mirroring)",
+      "pkg": "cn.manstep.phonemirrorBox",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/AutoKit-2025.03.19.1126.apk",
+      "versionCode": 2112232222,
+      "desc": "CarPlay / Android Auto mirroring over the USB dongle. Optional 'start with the car' in dashboard settings.",
+      "category": "Tools"
     }
   ]
 }
