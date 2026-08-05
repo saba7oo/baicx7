@@ -1,6 +1,6 @@
 {
-    "versionCode": 8,
-    "versionName": "0.8",
-    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.8/cardashboard-car-release.apk",
-    "notes": "Release 0.8 \u2014 2-tile split framing (fixed); voice trainer localized (en/ar/ru) + per-window commands + Russian nav/media; voice latency ~15s\u2192~6-7s (dynamic whisper audio_ctx); camera language via CAN; removed To-screen button, tiny time, dock temps"
+    "versionCode": 9,
+    "versionName": "0.9",
+    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.9/cardashboard-car-release.apk",
+    "notes": "Release 0.9 - seamless cockpit and split (gap 0, frame painted behind the windows); the Control Center strip no longer swallows taps at the top of apps, and it and the drawer are opaque over live apps; opt-in knob navigate mode (rotation steps between options, centre clicks, double-centre toggles) with one press doing one thing; keyboard survives app updates and stays out of the vendor dialer's numpad; the phone icon opens the dialer full screen; tiles come back after a theme change; stale freeform windows swept at startup; CLOSE APPS no longer overwrites the saved layout"
 }
