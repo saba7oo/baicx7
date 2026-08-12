@@ -9,12 +9,52 @@
       "category": "Media"
     },
     {
-      "name": "YouTube Music (ReVanced)",
+      "name": "YouTube (ReVanced)",
       "pkg": "app.rvx.android.youtube",
       "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/YouTube_ReVanced_Advanced_v19.11.38.apk",
       "versionCode": 1545074112,
       "desc": "Ad-free YouTube",
       "category": "Media"
+    },
+    {
+      "name": "YouTube Music (RVX)",
+      "pkg": "app.rvx.android.apps.youtube.music",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/vanced.to_vanced_youtube_music_ext_arm64_v8a_v8.30.54_cli5.0.2_p5.14.1.9.apk",
+      "versionCode": 83054240,
+      "desc": "Ad-free YouTube Music",
+      "category": "Media"
+    },
+    {
+      "name": "Ostora TV (الاسطورة)",
+      "pkg": "com.ostoratv.com",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/+TV_1.0_APKPure.apk",
+      "versionCode": 1,
+      "desc": "Arabic live TV",
+      "category": "Media"
+    },
+    {
+      "name": "Smarters Player Lite",
+      "pkg": "com.nst.smartersplayer",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/Smarters+Player+Lite_5.1_APKPure.apk",
+      "versionCode": 44,
+      "desc": "IPTV player",
+      "category": "Media"
+    },
+    {
+      "name": "Petal Maps",
+      "pkg": "com.huawei.maps.app",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/Petal+Maps+.+GPS+.+Navigation_4.7.0.322.001._APKPure.apk",
+      "versionCode": 40700322,
+      "desc": "Huawei navigation - no Google services needed",
+      "category": "Navigation"
+    },
+    {
+      "name": "AR GPS Navigation",
+      "pkg": "com.w.argps",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/AR+GPS+DRIVE_WALK+NAVIGATION_Beta+64.0_APKPure.apk",
+      "versionCode": 128,
+      "desc": "AR overlay navigation (beta)",
+      "category": "Navigation"
     },
     {
       "name": "Aptoide TV",
@@ -41,11 +81,59 @@
       "category": "Tools"
     },
     {
-      "name": "microG Services",
+      "name": "ES File Explorer",
+      "pkg": "com.estrongs.android.pop",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/ES+File+Explorer+File+Manager_4.4.2.2.1_APKPure.apk",
+      "versionCode": 15036,
+      "desc": "File manager",
+      "category": "Tools"
+    },
+    {
+      "name": "GBox",
+      "pkg": "com.gbox.android",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/GBox-1.8.3.32-1080332-7848795-website.apk",
+      "versionCode": 1080332,
+      "desc": "Run Google apps in a sandbox - no Google services needed",
+      "category": "Tools"
+    },
+    {
+      "name": "microG Services (ReVanced)",
       "pkg": "app.revanced.android.gms",
       "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/microG_Services_v0.3.1.4.240913-hw_.apk",
       "versionCode": 240913008,
       "desc": "Google services for ReVanced apps",
+      "category": "Tools"
+    },
+    {
+      "name": "microG Core (GmsCore)",
+      "pkg": "com.google.android.gms",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/com.google.android.gms-0.3.15.apk",
+      "versionCode": 250932030,
+      "desc": "Google services replacement (system microG)",
+      "category": "Tools"
+    },
+    {
+      "name": "microG Companion",
+      "pkg": "com.android.vending",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/com.android.vending-microg-0.3.15.apk",
+      "versionCode": 84022630,
+      "desc": "Play Store stand-in for microG",
+      "category": "Tools"
+    },
+    {
+      "name": "microG Framework Proxy",
+      "pkg": "com.google.android.gsf",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/com.google.android.gsf-0.1.0.apk",
+      "versionCode": 8,
+      "desc": "Services framework stub for microG",
+      "category": "Tools"
+    },
+    {
+      "name": "Mozilla Location Backend",
+      "pkg": "org.microg.nlp.backend.ichnaea",
+      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/IchnaeaNlpBackend-1.5.0.apk",
+      "versionCode": 20036,
+      "desc": "Network location for microG",
       "category": "Tools"
     },
     {
@@ -54,14 +142,6 @@
       "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/vanced.to_revanced_manager_plus_v3.5.1.apk",
       "versionCode": 351,
       "desc": "Patch apps yourself",
-      "category": "Tools"
-    },
-    {
-      "name": "SwiftKey Keyboard",
-      "pkg": "com.touchtype.swiftkey",
-      "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/apps/swiftkey-keyboard-9-13-12-4.apk",
-      "versionCode": 1236009024,
-      "desc": "On-screen keyboard",
       "category": "Tools"
     },
     {
