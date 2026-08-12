@@ -1,6 +1,6 @@
 {
-    "versionCode": 11,
-    "versionName": "0.11",
-    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.11/cardashboard-car-release.apk",
-    "notes": "Release 0.11 - flash this instead of 0.10. Two package faults are fixed: AutoKit was in the zip but never extracted, so it was silently skipped and the mirroring dongle had no system app; and the keyboard lost a boot race on a freshly flashed unit, coming up registered but not enabled. The keyboard now re-asserts itself after boot and watches the setting, so it no longer matters when the ROM writes. Everything from 0.10 is included: the cockpit rail with HOME, the Control Center on the car own panel with ambient and privacy, and the two layouts separated in code."
+    "versionCode": 12,
+    "versionName": "0.12",
+    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.12/cardashboard-car-release.apk",
+    "notes": "Release 0.12 - a large driver-directed update, all verified on-car. Cockpit rail redesigned (bigger targets, the black areas act as HOME/Settings, no more tray flash, and the long-standing tile-surface-loss root cause fixed). Applications page shows driver apps only; Android Settings is behind a PIN. App store auto-lists uploaded APKs. Hands-free wake word (Hey BAIC) with an English model; voice commands decode in a chosen language and play YouTube songs directly. Clear-cache, USB welcome clip, animated BAIC X7 splash. Flying resizable keyboard with per-user languages. New Recent Calls view restores the + the vendor drops and dials international numbers back via the 00 form."
 }
