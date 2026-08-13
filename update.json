@@ -1,6 +1,6 @@
 {
-    "versionCode": 14,
-    "versionName": "0.14",
-    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.14/cardashboard-car-release.apk",
-    "notes": "Release 0.14 - offline voice models. Settings now has 'Voice model for Hey BAIC' and 'Voice commands model (offline)' download buttons, and the app auto-installs a bundled model with no internet. If voice or 'Hey BAIC' did nothing, connect the car to Wi-Fi once and download the models from Settings."
+    "versionCode": 15,
+    "versionName": "0.15",
+    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.15/cardashboard-car-release.apk",
+    "notes": "Release 0.15 - voice overhaul. Offline voice commands via a constrained grammar (no more mishearing), Settings > Voice > Teach lets you teach each command in Arabic or Russian, 'call <name>' rings the phone directly, and the full climate/media/car-control command set. AC on/off fixed. Say 'Hey BAIC' then a command."
 }
