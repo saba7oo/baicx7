@@ -1,6 +1,6 @@
 {
-    "versionCode": 13,
-    "versionName": "0.13",
-    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.13/cardashboard-car-release.apk",
-    "notes": "Release 0.13 - the 'Hey BAIC' wake word now has a downloadable voice model. On any unit where 'Hey BAIC' did nothing, open Settings and tap 'Voice model for Hey BAIC' to download it once (needs internet), then turn on the wake word. Also carries the 0.12 driver-directed updates."
+    "versionCode": 14,
+    "versionName": "0.14",
+    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.14/cardashboard-car-release.apk",
+    "notes": "Release 0.14 - offline voice models. Settings now has 'Voice model for Hey BAIC' and 'Voice commands model (offline)' download buttons, and the app auto-installs a bundled model with no internet. If voice or 'Hey BAIC' did nothing, connect the car to Wi-Fi once and download the models from Settings."
 }
