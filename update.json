@@ -1,6 +1,6 @@
 {
-    "versionCode": 12,
-    "versionName": "0.12",
-    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.12/cardashboard-car-release.apk",
-    "notes": "Release 0.12 - a large driver-directed update, all verified on-car. Cockpit rail redesigned (bigger targets, the black areas act as HOME/Settings, no more tray flash, and the long-standing tile-surface-loss root cause fixed). Applications page shows driver apps only; Android Settings is behind a PIN. App store auto-lists uploaded APKs. Hands-free wake word (Hey BAIC) with an English model; voice commands decode in a chosen language and play YouTube songs directly. Clear-cache, USB welcome clip, animated BAIC X7 splash. Flying resizable keyboard with per-user languages. New Recent Calls view restores the + the vendor drops and dials international numbers back via the 00 form."
+    "versionCode": 13,
+    "versionName": "0.13",
+    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.13/cardashboard-car-release.apk",
+    "notes": "Release 0.13 - the 'Hey BAIC' wake word now has a downloadable voice model. On any unit where 'Hey BAIC' did nothing, open Settings and tap 'Voice model for Hey BAIC' to download it once (needs internet), then turn on the wake word. Also carries the 0.12 driver-directed updates."
 }
