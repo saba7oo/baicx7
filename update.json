@@ -1,6 +1,6 @@
 {
-    "versionCode": 16,
-    "versionName": "0.16",
-    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.16/cardashboard-car-release.apk",
-    "notes": "Release 0.16 - 'Hey BAIC' now works out of the box: the wake word is ON by default and its voice model auto-downloads on first boot (needs Wi-Fi once). Plus everything from 0.15 - offline voice commands, teach Arabic/Russian, call by name, full car-control command set, AC fix."
+    "versionCode": 17,
+    "versionName": "0.17",
+    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.17/cardashboard-car-release.apk",
+    "notes": "Release 0.17 - 'Hey BAIC' now keeps trying to grab the microphone if the car's built-in voice assistant is using it, instead of giving up. Reboot the car once after updating for the cleanest start. Plus everything from 0.16."
 }
