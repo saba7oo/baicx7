@@ -1,6 +1,6 @@
 {
-    "versionCode": 17,
-    "versionName": "0.17",
-    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.17/cardashboard-car-release.apk",
-    "notes": "Release 0.17 - 'Hey BAIC' now keeps trying to grab the microphone if the car's built-in voice assistant is using it, instead of giving up. Reboot the car once after updating for the cleanest start. Plus everything from 0.16."
+    "versionCode": 18,
+    "versionName": "0.18",
+    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.18/cardashboard-car-release.apk",
+    "notes": "0.18 - Fixes 'Hey BAIC' on release builds (the wake-word engine was being stripped by the code shrinker, so it never started). Also releases the microphone during phone calls so the other side can hear you, stops false wake-ups on music/radio, and the Bluetooth quick-tile now opens the car's own Bluetooth settings."
 }
