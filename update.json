@@ -1,6 +1,6 @@
 {
-    "versionCode": 20,
-    "versionName": "0.20",
-    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.20/cardashboard-car-release.apk",
-    "notes": "0.20 - Russian and Arabic voice commands now use real Russian/Arabic speech models (auto-downloaded when your language is Russian or Arabic), so you speak naturally instead of an English approximation. Plus everything from 0.19 (language survives restart, Hey BAIC fixed, mic released on calls)."
+    "versionCode": 21,
+    "versionName": "0.21",
+    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.21/cardashboard-car-release.apk",
+    "notes": "0.21 - After an update the head unit reboots for a clean start (instead of just the dashboard reloading). The WiFi quick-tile opens the car's WiFi settings directly, like Bluetooth. Plus everything from 0.20 (Russian + Arabic voice models)."
 }
