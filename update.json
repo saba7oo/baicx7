@@ -1,6 +1,6 @@
 {
-    "versionCode": 21,
-    "versionName": "0.21",
-    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.21/cardashboard-car-release.apk",
-    "notes": "0.21 - After an update the head unit reboots for a clean start (instead of just the dashboard reloading). The WiFi quick-tile opens the car's WiFi settings directly, like Bluetooth. Plus everything from 0.20 (Russian + Arabic voice models)."
+    "versionCode": 22,
+    "versionName": "0.22",
+    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.22/cardashboard-car-release.apk",
+    "notes": "0.22 - New voice commands: set an exact A/C temperature (e.g. 'temperature 22'), and open/close individual windows (passenger, rear left, rear right). English, Russian and Arabic. Plus everything from 0.21."
 }
