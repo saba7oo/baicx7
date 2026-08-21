@@ -1,6 +1,6 @@
 {
-    "versionCode": 63,
-    "versionName": "0.63",
-    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.63/cardashboard-car-release.apk",
-    "notes": "Set date, time and time zone in the dashboard's own screen."
+    "versionCode": 64,
+    "versionName": "0.64",
+    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.64/cardashboard-car-release.apk",
+    "notes": "Recent calls can now show on the driver cluster (Settings > Gadgets)."
 }
