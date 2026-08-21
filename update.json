@@ -1,6 +1,6 @@
 {
-    "versionCode": 66,
-    "versionName": "0.66",
-    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.66/cardashboard-car-release.apk",
-    "notes": "Apps and Settings shortcuts on the dashboard and the split mini-dashboard."
+    "versionCode": 67,
+    "versionName": "0.67",
+    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.67/cardashboard-car-release.apk",
+    "notes": "Clear cached contacts and history on demand."
 }
