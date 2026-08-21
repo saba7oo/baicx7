@@ -1,6 +1,6 @@
 {
-    "versionCode": 59,
-    "versionName": "0.59",
-    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.59/cardashboard-car-release.apk",
-    "notes": "Faster phone sync: call history appears as soon as the car's own sync finishes."
+    "versionCode": 60,
+    "versionName": "0.60",
+    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.60/cardashboard-car-release.apk",
+    "notes": "Physical phone button places calls; faster phone sync."
 }
