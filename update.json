@@ -1,6 +1,6 @@
 {
-    "versionCode":  58,
-    "versionName":  "0.58",
-    "apkUrl":  "https://github.com/saba7oo/baicx7/releases/download/v0.58/cardashboard-car-release.apk",
-    "notes":  "Release 0.58"
+    "versionCode": 59,
+    "versionName": "0.59",
+    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.59/cardashboard-car-release.apk",
+    "notes": "Faster phone sync: call history appears as soon as the car's own sync finishes."
 }
