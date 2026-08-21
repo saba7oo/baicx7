@@ -1,6 +1,6 @@
 {
-    "versionCode": 60,
-    "versionName": "0.60",
-    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.60/cardashboard-car-release.apk",
-    "notes": "Physical phone button places calls; faster phone sync."
+    "versionCode": 61,
+    "versionName": "0.61",
+    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.61/cardashboard-car-release.apk",
+    "notes": "Incoming calls use only the dashboard call screen; phone button places calls; faster phone sync."
 }
