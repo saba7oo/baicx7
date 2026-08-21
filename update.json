@@ -1,6 +1,6 @@
 {
-    "versionCode": 65,
-    "versionName": "0.65",
-    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.65/cardashboard-car-release.apk",
-    "notes": "Option to stop saving contacts and call history on the device."
+    "versionCode": 66,
+    "versionName": "0.66",
+    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.66/cardashboard-car-release.apk",
+    "notes": "Apps and Settings shortcuts on the dashboard and the split mini-dashboard."
 }
