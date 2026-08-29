@@ -1,6 +1,6 @@
 {
-    "versionCode": 75,
-    "versionName": "0.75",
-    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.75/cardashboard-car-release.apk",
-    "notes": "Split-screen stability: Waze split fixed (no more hidden/hung split on exit and re-open)."
+    "versionCode":  76,
+    "versionName":  "0.76",
+    "apkUrl":  "https://github.com/saba7oo/baicx7/releases/download/v0.76/cardashboard-car-release.apk",
+    "notes":  "Release 0.76"
 }
