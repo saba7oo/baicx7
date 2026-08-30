@@ -1,6 +1,6 @@
 {
-    "versionCode": 76,
-    "versionName": "0.76",
-    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.76/cardashboard-car-release.apk",
-    "notes": "NEW: Send to Car - scan the QR next to the speedometer with any phone to send a destination (Google Maps link, coordinates, or place name) straight to Waze, nothing to install on the phone. EasyConnection now appears in the app list. Cluster display self-heals if it ever goes blank."
+    "versionCode":  77,
+    "versionName":  "0.77",
+    "apkUrl":  "https://github.com/saba7oo/baicx7/releases/download/v0.77/cardashboard-car-release.apk",
+    "notes":  "Release 0.77"
 }
