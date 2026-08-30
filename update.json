@@ -1,6 +1,6 @@
 {
-    "versionCode":  77,
-    "versionName":  "0.77",
-    "apkUrl":  "https://github.com/saba7oo/baicx7/releases/download/v0.77/cardashboard-car-release.apk",
-    "notes":  "Release 0.77"
+    "versionCode": 77,
+    "versionName": "0.77",
+    "apkUrl": "https://github.com/saba7oo/baicx7/releases/download/v0.77/cardashboard-car-release.apk",
+    "notes": "Send to Car now understands the new Google Maps share links and Apple Maps links (iPhone). Navigation knob opens Waze full screen reliably. Seat heat/vent tiles mirror changes made on the small AC screen live. Steering-wheel phone buttons answer and end calls."
 }
